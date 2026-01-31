@@ -1,0 +1,367 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(32,71,62);
+}
+#head{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+#logo{
+    /* flex-shrink: 0; */
+    margin: 20px;
+    color:aliceblue; display: inline-block; font-size: xx-large;
+}
+#head2{
+    /* flex-shrink: 0; */
+    width: 462px ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+a{
+    /* flex-shrink: 0; */
+    text-decoration: none;
+    color: white;
+}
+#searchpannel{
+    margin: 20px;
+    display: flex;
+    /* flex-shrink: 0; */
+}
+#searchbar{
+    background-color: rgb(32,71,62);
+    border: 1px solid grey;
+    height: 20px;
+   border-radius: 15px 0px 0px 15px;
+   color: white ;
+   padding: 3px;
+   border-right: none;
+}
+#searchsymbol{
+    border: 1px solid grey;
+    border-left: none;
+    height: 20px;
+    padding: 3px;
+   border-radius: 0px 15px 15px 0px;
+}
+button{
+    padding: 5px;
+    background-color: rgb(32,71,62);
+    color: black;
+    border-radius: 15px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+#headbar{
+    width: 1176px;
+   margin-left: 112px;
+   margin-right: 112px;
+    border: 0.001px solid grey;
+}
+
+#nurturing1{
+    width: 588px;
+    height: 420px;
+    margin: 70px 70px 0px 112px;
+    border-radius:20px 15px 0px 0px;
+}
+/* #love{
+    display: flex;
+    flex-direction: column;
+
+} */
+#love1{
+   
+    color: yellow;
+    font-size: 37.38px;
+    margin: 112px 0px 0px 10px ;
+    transform: skew(-10deg);
+     display: inline-block;
+}
+#para1{
+    margin-top: 56px;
+    margin-left: 14px;
+    display: inline-block;
+    color: white;
+    font-size:14px;
+    flex-shrink: 0;
+}
+#button2{
+    border-radius: 42px;
+    background-color: red;
+    border: 1px solid orange;
+    color: yellow;
+    box-shadow: 2px 2px 20px 2px orange;
+    display: inline-block;
+    width: 140px;
+    height: 42px;
+    /* margin-top: 8%;
+    margin-left: 10px; */
+    margin: 20px 20px 0px 60px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+#circle{
+    border-radius: 24.5px; 
+    border: 1px solid white; 
+    width: 49px; 
+    background-color: rgb(32,71,62); 
+    height: 49px; 
+    display: flex;  
+    /* position: absolute; */
+    margin:20px 0px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+/* #sunflower{
+    width: 112px;
+    position: absolute;
+    z-index:-2;
+    right:70px;
+    top: 476px;
+    border-radius: 28px 28px 0px 0px;
+} */
+#content{
+    width: 1400px;
+    margin-left: 21px;
+    margin-right: 35px;
+    border-radius: 15px;
+    background-color: white;
+    height: 1800px;
+    
+}
+#row1{
+    display: flex;
+    overflow-x: auto;
+    margin-left: 10px;
+    height: 400px;
+}
+#row1_col1{
+    width: 250px;
+    margin-left: 20px;
+}
+#row1_col2{
+    width: 600px;
+    margin-left: 20px;
+}
+h2{
+    font-size:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#button3{
+    background-color: white;
+    border-radius: 10px;
+    color: green;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 1px 1px 40px 2px green;
+    margin-left: 20px;
+}
+#animate{
+    width: 1400px;
+    height: 220px;
+    /* border: 1px solid green; */
+    margin-top: 3.5714vw;
+     display: flex;
+      align-items: center; 
+      overflow-x: auto;
+      justify-content: space-evenly;
+      box-shadow:   2px 2px 50px 10px green;
+      border-radius: 25px;
+}
+#animate .houseplants{
+    flex-shrink: 0;
+}
+.houseplants{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    display: inline-block;
+   /* background-color: rgb(86, 86, 86); */
+   box-shadow:   2px 2px 50px 2px green;
+    /* animation-name: plants-movement;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    
+    /* animation-play-state: paused; */
+}
+/* @keyframes plants-movement {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(107.14vw);
+    }
+} */
+a:hover{
+    text-decoration: underline;
+}
+.houseplantsimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    /* margin: 10px 10px 0px 25px; */
+}
+/* .houseplantsimg:hover{
+    opacity: 0.5;
+} */
+.imgfoot{
+    display: flex;
+    position: relative;
+    top: 150px;
+    border-radius: 0px 0px 10px 10px;
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 50px;
+    /* z-index: 3; */
+    color: black;
+    opacity: 0;
+}
+
+.imgfoot:hover{
+    opacity: 1;
+}
+
+.boxbelowhouseplants{
+    width: 460px;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+#flower1{
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+}
+#flower2{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+#evergreenbliss{
+     width: 1360px;
+    height: 350px;
+
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.evergreenblissbox{
+     width: 380px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: 20px;
+    flex-shrink: 0;
+}
+#evergreenblissbox1{
+    width: 450px;
+    height: 300px;
+    box-shadow: inset 8px 8px 80px 50px green;
+    margin: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   border-radius: 25px;
+}
+#blissbox1_box_3{
+    width: 250px;
+    height: 50px;
+    border: 1px solid green;
+    box-shadow: inset 1px 1px 30px 5px blue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: blue;
+}
+#blissbox1_3_01{
+    display: inline-block;
+    box-shadow: 1px 1px 40px 10px aqua,
+                inset 1px 1px 10px 2px aqua;
+    border-radius: 5px;
+}
+#blissbox1_box_1{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+    box-shadow: inset 1px 1px 20px 8px rgb(250, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blissbox1_box_2{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+    box-shadow: inset 1px 1px 30px 10px orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blissbox1_box_4{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 30px 5px rgb(2, 160, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blissbox1_box_5{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 30px 5px rgb(140, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blissbox3_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 60px;
+}
+#blissbox3_heading{
+     display: inline-block;
+    font-size: x-large; 
+    
+   animation-name: bestprices;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes bestprices {
+    0% {font-size: x-large; }
+    50% {font-size: xx-large;}
+    100% {font-size: x-large;}
+}
+
